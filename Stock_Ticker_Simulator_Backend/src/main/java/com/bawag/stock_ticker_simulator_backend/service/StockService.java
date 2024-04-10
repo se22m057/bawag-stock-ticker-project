@@ -30,7 +30,7 @@ public class StockService {
     public void initialize() {
         //Lesen der Testdaten aus einem json file
         Gson gson = new Gson();
-        try (FileReader reader = new FileReader("C:\\Users\\chris\\IdeaProjects\\bawag_stock_ticker\\Stock_Ticker_Simulator_Backend\\src\\main\\resources\\StockData.json")) {
+        try (FileReader reader = new FileReader("C:\\Users\\chris\\Desktop\\bawag_stock_ticker_project\\Stock_Ticker_Simulator_Backend\\src\\main\\resources\\StockData.json")) {
             Type listType = new TypeToken<List<Stock>>(){}.getType();
             List<Stock> stocks = gson.fromJson(reader, listType);
             for (Stock stock : stocks) {
