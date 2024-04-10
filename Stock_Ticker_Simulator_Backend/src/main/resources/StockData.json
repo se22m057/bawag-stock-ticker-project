@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Apple Inc.",
+    "symbol": "AAPL",
+    "initPrice": 150
+  },
+  {
+    "name": "Microsoft Corporation",
+    "symbol": "MSFT",
+    "initPrice": 250
+  },
+  {
+    "name": "Alphabet Inc.",
+    "symbol": "GOOGL",
+    "initPrice": 550
+  },
+  {
+    "name": "Tesla Inc.",
+    "symbol": "TSLA",
+    "initPrice": 290
+  },
+  {
+    "name": "Amazon.com Inc.",
+    "symbol": "AMZN",
+    "initPrice": 3100
+  },
+  {
+    "name": "Facebook, Inc. (Meta Platforms, Inc.)",
+    "symbol": "META",
+    "initPrice": 200
+  },
+  {
+    "name": "NVIDIA Corporation",
+    "symbol": "NVDA",
+    "initPrice": 400
+  },
+  {
+    "name": "Berkshire Hathaway Inc.",
+    "symbol": "BRK.A",
+    "initPrice": 421000
+  },
+  {
+    "name": "JPMorgan Chase & Co.",
+    "symbol": "JPM",
+    "initPrice": 130
+  },
+  {
+    "name": "Johnson & Johnson",
+    "symbol": "JNJ",
+    "initPrice": 160
+  }
+]

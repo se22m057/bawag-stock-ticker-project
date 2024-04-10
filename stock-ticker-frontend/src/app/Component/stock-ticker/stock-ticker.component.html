@@ -1,0 +1,27 @@
+
+
+@if (stockData.length) {
+  <div>
+    @for (data of stockData; track data) {
+      <mat-card class="stock-card" [@priceChange]="data.stockChange">
+        <mat-card-header>
+          <mat-card-title>{{ data.symbol }}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="card-content">
+          <div>
+            <p>Price: {{ data.price | currency }}</p>
+            <p>Average7: {{ data.stockTickAverage.averageLast7 | currency }}</p>
+            <p>Average30: {{ data.stockTickAverage.averageLast30 | currency }}</p>
+          </div>
+          @if (data.showChangeFactor) {
+            <div class="price-change">
+              <p>{{ data.change | number:'1.2-2' }}%</p>
+            </div>
+          }
+        </mat-card-content>
+      </mat-card>
+    }
+  </div>
+} @else {
+  <mat-spinner></mat-spinner>
+}

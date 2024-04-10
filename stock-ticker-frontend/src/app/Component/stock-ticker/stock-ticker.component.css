@@ -1,0 +1,14 @@
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .price-change{
+    color: white;
+    font-size: xx-large;
+  }
+  
+  .stock-card {
+    margin-bottom: 10px; /* Abstand zwischen den Karten */
+  }
